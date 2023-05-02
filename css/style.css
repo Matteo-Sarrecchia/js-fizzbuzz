@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: orange;
+}
+
+#contenitore{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+    color: white;
+    background-color: blue;
+    border-radius: 20px;
+}
+
+.square{
+    background-color: rgb(6, 6, 118);
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    height: 40px;
+    width: calc(10% - 20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid red;
+    transition: all 1s ease-in-out;
+}
+
+.square:hover{
+    background-color: blue;
+    border: 2px solid yellow;
+    scale: 1.2;
+}
+
+.fizzBuzz{
+    background-color: blueviolet;
+}
+
+.buzz{
+    background-color: aqua;
+}
+
+.fizz{
+    background-color: green;
+}
